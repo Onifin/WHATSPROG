@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1649096433 source:c:\users\iann9\onedrive\햞ea de trabalho\mysocket\mysocket.cpp
+	<iostream>
+	<string.h>
+	"mysocket.h"
+	<sys/types.h>
+	<netdb.h>
+	<unistd.h>
+
+1669812989 c:\users\iann9\onedrive\햞ea de trabalho\mysocket\mysocket.h
+	<iostream>
+	<string>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/socket.h>
+
+1671780515 source:c:\users\iann9\onedrive\햞ea de trabalho\whatsprog_servidor\whatsprog_dados.cpp
+	"whatsprog_dados.h"
+
+1671780515 c:\users\iann9\onedrive\햞ea de trabalho\whatsprog_servidor\whatsprog_dados.h
+	<iostream>
+	<fstream>
+	<string>
+	<list>
+
+1671784072 source:c:\users\iann9\onedrive\햞ea de trabalho\whatsprog_servidor\whatsprog_dados_servidorfake.cpp
+	<iostream>
+	<sstream>
+	<iomanip>
+	<vector>
+	<algorithm>
+	"whatsprog_dados_servidorFAKE.h"
+
+1671717132 c:\users\iann9\onedrive\햞ea de trabalho\whatsprog_servidor\whatsprog_dados_servidorfake.h
+	<string>
+	<list>
+	<vector>
+	"../MySocket/mysocket.h"
+	"whatsprog_dados.h"
+
+1671715055 source:c:\users\iann9\onedrive\햞ea de trabalho\whatsprog_servidor\main_servidor.cpp
+	<iostream>
+	<thread>
+	"whatsprog_dados.h"
+	"whatsprog_dados_servidorFAKE.h"
+
